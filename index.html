@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>JavaScript Quiz</title>
-</head>
-<body>
-    <header>
-        <div>
-        <a href="./scores.html">Quiz Score Rankings!</a>
-        </div> 
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>JavaScript Quiz</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="./scores.html">Quiz Score Rankings!</a>
+            </div>
+            <div>
+                <p id="timer">timer</p>
+            </div>
+        </header>
 
-    <section>
-        <h1>JavaScript Quiz Challenge!</h1>
-        <p>
-            Try to answer the following code-related questions within the time limit.</br>
-            Keep in mind that the incorrect answers will penalise your score/time</br>
-            by ten seconds!</br>
-            Good Luck!</br>
-        </p>
-        <div id="quiz-main">
+        <section class="quiz-content">
+            <h1>JavaScript Quiz Challenge!</h1>
+            <p>
+                Try to answer the following code-related questions within the time limit.</br>
+                Keep in mind that the incorrect answers will penalise your score/time</br>
+                by ten seconds!</br>
+                Good Luck!</br>
+            </p>
+            <div class="quiz-start">
+                <button class="quizBtn" id="save-task" type="submit">Start Quiz!</button>
+            </div>
+            <div id="quiz-main">
 
-        </div>  
-    </section>
+            </div>  
+        </section>
 
-    <script src="./assets/js/script.js"></script>
-</body>
-
+        <script src="./assets/js/script.js"></script>
+    </body>
 </html>
